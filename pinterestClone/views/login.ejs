@@ -16,6 +16,9 @@
           class="img1"
         />
         <p class="header">Log In to see more</p>
+        <% if(error.length > 0) { %> 
+          <p class="error"> <%= error %></p>
+          <%}%>
         <form action="/login" method="post">
           <input
             type="username"
@@ -40,9 +43,7 @@
             <b>Terms of Service, Privacy policy.</b>
           </p>
           <hr />
-          <a href="/" style="font-size: small"
-            >Not on Pinterest yet? Sign up</a
-          >
+          <a href="/" style="font-size: small">Not on Pinterest yet? Sign up</a>
         </footer>
       </div>
     </div>

@@ -5,6 +5,9 @@ const postSchema = new moongoose.Schema({
         type: String,
         required: true,
     },
+    image: {
+        type: String
+    },
     user:{
         type: moongoose.Schema.Types.ObjectId,
         ref: 'users'

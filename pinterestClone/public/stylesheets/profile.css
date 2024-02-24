@@ -12,11 +12,11 @@ body {
 }
 
 .cardper {
-  background-color: #fff;
+  background-color: white;
   border-radius: 5px;
   padding: 20px;
   text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
 }
 
 .profile-picture {
@@ -50,10 +50,17 @@ body {
   margin: 10px 0;
 }
 
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: start;
+}
+
 .button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: rgb(250, 4, 4);
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -61,5 +68,5 @@ body {
 }
 
 .button:hover {
-  background-color: #0056b3;
+  background-color: rgb(145, 11, 11);
 }
